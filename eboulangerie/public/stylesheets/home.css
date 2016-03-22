@@ -1,0 +1,33 @@
+#entete
+{	
+	height:150px;
+	background-color:#FFB6B8;
+	padding-bottom:20px;
+}
+
+body
+{
+	padding :0;
+	
+}
+
+#colonne
+{
+	border-width:3px;
+	border-color:#320E15;
+}
+
+#test
+{
+	width : 300px;
+}
+
+h1
+{
+text-align:center;	
+}
+
+#test
+{
+padding-top:20px;	
+}

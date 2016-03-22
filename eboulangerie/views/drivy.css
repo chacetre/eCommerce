@@ -1,0 +1,87 @@
+#compute
+{
+ vertical-align: middle;
+ horizontal-align:middle; 
+ margin:auto;
+ margin-bottom:20px;
+}
+
+form {
+ background-color:#FAFAFA;
+ padding:10px;
+ width:400px;
+ 
+ } 
+ 
+#content
+{
+  margin:auto;
+  width:600px;
+  margin-top:20px;
+}
+
+header
+{
+	height:80px;
+	background-color: #e74c3c;	
+}
+
+img{
+	max-width: 20%;
+}
+
+#custom-bootstrap-menu.navbar-default {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  height:90px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand:hover,
+#custom-bootstrap-menu.navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav > .open > a,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .open > a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-collapse,
+#custom-bootstrap-menu.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+#custom-bootstrap-menu.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+

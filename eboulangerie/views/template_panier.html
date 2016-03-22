@@ -1,0 +1,29 @@
+<section class="container">
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Produit</th>
+        <th>Prix</th>
+        <th>Quantite</th>
+      </tr>
+    </thead>
+	
+    {% for p in panier %}
+	
+	<tbody>
+      <tr>
+        <td>{{p.name}}</td>
+        <td>{{p.prix}}</td>
+        <td>{{p.quantite}}</td>
+      </tr>
+	  </tbody>
+	  
+		
+	  
+    {% endfor %}   
+	</table>
+	
+	<label> Total : </label><a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="id_patisserie" onclick="AddElement()">PAYER</a>
+</section>
+

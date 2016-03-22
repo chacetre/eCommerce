@@ -1,0 +1,30 @@
+<section class="container">
+	
+		<h2> {{name}} </h2>
+		<img src="{{image}}" class="img-thumbnail" width="304" height="236">
+		</div>
+		<div class="col-sm-6">
+		
+		<label> Prix : {{prix}} </label><br><br>
+		<label> Boulangerie : {{boulangerie}}</label><br>
+		
+
+		<label for="q">Quantité: </label>
+		<select id="qt" name="q">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+		</select><br>
+		
+		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id={{id}} onclick="AddElement(this.id,2)">
+			  Ajouter
+			</a>
+	
+</section>
